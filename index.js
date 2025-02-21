@@ -8,7 +8,7 @@ const rout = require('./routes/router');
 
 // const TelegramBot = require('node-telegram-bot-api');
 // // const token = process.env.TOKEN;
-// const token = "7524776934:AAE8TC2593E-qjCqSZXiO_A0IPn5TGFU6pU";
+// const token = "";
 // const bot = new TelegramBot(token, {polling: true});
 // const webAppUrl = 'https://192.168.0.5:3000/'
 //
