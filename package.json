@@ -1,0 +1,24 @@
+{
+  "name": "wed-back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module.mjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "git-init": "^1.0.0",
+    "mysql2": "^3.10.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
