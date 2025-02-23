@@ -9,7 +9,7 @@ app.use(cors({
     origin: '*', // Разрешить запросы с любого источника (для тестирования)
     methods: 'GET,POST', // Разрешенные HTTP-методы
     optionsSuccessStatus: 200 // Для старых браузеров
-}));                           // Убрать данную строку из Deploy
+}));                          // Убрать данную строку из Deploy
 
 app.get("/api/inf", newlywedController.getAllData);
 
